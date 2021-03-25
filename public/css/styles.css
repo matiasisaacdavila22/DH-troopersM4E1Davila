@@ -222,13 +222,11 @@
                     .descripcion{
                         display:block;
                         box-shadow : 0px 0px 10px rgb ( 100 , 100 , 100 );
-                }
-    
+                }    
  
 } 
 
 @media(min-width: 769px){
-    
     
             .nav{
                 display: flex;
@@ -256,12 +254,12 @@
     
         .main{
             display: flex;
-
+          
         } 
             
             .ultimaVisita{
                 display: flex;
-              
+               
                 }  
             
                 .article{
