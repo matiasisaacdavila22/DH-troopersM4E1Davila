@@ -8,7 +8,7 @@ app.use(express.static(publicPath));
 
 
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname,'./views/home.html'));
+    res.sendFile(path.join(__dirname,'./views/register.html'));
   })
 
 app.listen(port, () => {

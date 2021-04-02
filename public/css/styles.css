@@ -148,6 +148,50 @@
   color: #666;
 }
 
+.form-register{
+  padding: 20px 15px;
+  background-color: #ebebeb;
+}
+
+.control-form{
+  margin-bottom: 15px;
+}
+
+.titulo{
+  margin-bottom: 5px;
+  font-style:normal;
+  font-weight: 600;
+  display: block;
+}
+
+.control{
+  width: 100%;
+  padding: 8px;
+}
+
+.categorias{
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 15px;
+}
+
+.button-submit{
+  background-color: #39b54a;
+  border: none;
+  font-size: 20px;
+  color: #FFF;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.button-reset{
+  background-color: #bbfc42;
+  border: none;
+  font-size: 20px;
+  color: #FFF;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
 @media (min-width:768px){
 
   .header-top{ 
