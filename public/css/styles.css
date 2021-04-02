@@ -192,6 +192,34 @@
   border-radius: 5px;
 }
 
+.main{
+  width: 100%;
+}
+
+.form-login{
+  width: 100%;
+  padding: 8px;
+  margin-top: -5px;
+  background-color: #ebebeb;
+  }
+
+.form-login input{
+ width: 100%;
+ border-radius: 5px;
+ margin-top: 20px;
+}
+
+.button-login{
+  background-color: #1259c3;;
+  border: none;
+  font-size: 20px;
+  color: #FFF;
+  padding: 5px 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  width: 100%;
+}
+
 @media (min-width:768px){
 
   .header-top{ 
