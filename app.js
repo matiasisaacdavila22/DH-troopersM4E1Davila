@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 3000;
+const port = 80;
 const path = require('path');
 
 const publicPath = path.resolve(__dirname,'./public');
@@ -19,5 +19,5 @@ app.get('/', (req, res) => {
   })
 
 app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`)
+  console.log(`Example app listening at mercadoliebre-dh.herokuapp.com:${port}`)
 })
